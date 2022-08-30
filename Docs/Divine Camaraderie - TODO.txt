@@ -1,0 +1,15 @@
+*Health system
+*Death
+*Heaven/hell layers
+*Distance counter
+Fix Dante movement to regard empty space as adding to score
+Packaged game doesn't load chunks correctly
+Graphics
+Menus
+Save data
+Title screen
+Sound FX
+Music
+Packaging
+Itch page
+Video reel
