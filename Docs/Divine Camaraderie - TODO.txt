@@ -2,9 +2,11 @@
 *Death
 *Heaven/hell layers
 *Distance counter
-Fix Dante movement to regard empty space as adding to score
+*Fix Dante movement to regard empty space as adding to score
 Packaged game doesn't load chunks correctly
 Graphics
+*Delay turns until start
+Feedback for actions
 Menus
 Save data
 Title screen
