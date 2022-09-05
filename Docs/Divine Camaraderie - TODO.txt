@@ -3,15 +3,262 @@
 *Heaven/hell layers
 *Distance counter
 *Fix Dante movement to regard empty space as adding to score
-Packaged game doesn't load chunks correctly
-Graphics
+*Packaged game doesn't load chunks correctly
+*Graphics
 *Delay turns until start
-Feedback for actions
-Menus
-Save data
-Title screen
-Sound FX
-Music
+*Feedback for actions
+*Menus
+XSave data
+*Title screen
+*Sound FX
+*Music
 Packaging
 Itch page
 Video reel
+
+
+
+
+
+
+Tutorial
+
+STORY
+
+Angel:
+Oh no! Dante Alighieri was supposed to meet Virgil for a tour of hell, but he got lost in the woods!
+
+Demon:
+And now he's being chased by wolves and lions and jaguars!
+
+Angel:
+And the ground is crumbling around him! What a terrible day!
+
+Demon:
+I have an idea. I could start a bunch of fires to herd him towards Virgil!
+
+Angel:
+Won't that burn the forest down?
+
+Demon:
+... maybe?
+
+Angel:
+No worries -- I'll keep the flames in check with rain.
+
+TUTORIAL
+
+
+
+Demon:
+Hold the L trigger to focus on me here in hell and the R trigger to focus on the angel up in heaven. We can only move while we're in focus.
+
+Demon:
+While focusing, press (A) to perform an action. I can send flames to my equivalent square on earth, and the angel can send rain.
+
+Angel:
+The demon and I can move at will, but down on earth, things run on timed turns. Every turn (4 seconds), fire will spread, Dante will have a chance to move, and the ground will crumble.
+
+Angel:
+Work quickly, because earth's turns won't wait for you.
+
+Demon:
+Dante will flee from fire in a neighboring square. He'll go to the square that will have the least fire near it on the next turn.
+
+Demon: And if potential squares have the same amount of fire, he prefers to go straight. If he can't go straight, he prefers to turn clockwise.
+
+Demon:
+You need fire to make Dante move, but don't let it get out of control. Fire will spread quickly.
+
+Demon:
+Dante can survive in a fire square for only two turns. Don't let him get too hot!
+
+Angel:
+Summon rain on a fire square to put the fire out. Fire won't spread into a square with rain, but summoning fire on a rain square will drive the rain away.
+
+Angel:
+Rain will also heal any harm Dante has suffered from fire.
+
+Angel:
+However, it takes Dante twice as long to move through a rain square, so use rain carefully.
+
+Demon:
+Oh, and trees!
+
+Demon:
+Trees will block Dante, but they can be burned down. Burning a tree takes two turns, and the fire won't spread until the tree is gone.
+
+Angel:
+Try to put the fire out as soon as the tree is gone. If you're fast enough, the fire won't spread and you'll be left with only one rain square to move through.
+
+Demon:
+Two more things: You can use the right analog stick to rotate the camera, and you can pause with the start button.
+
+Demon:
+Okay, you're an expert now, so let's get this guy to Virgil! The future of Italian literature depends on us!
+
+
+
+KBM Mappings
+
+WASD for movement
+Shift focuses heaven
+L Ctrl focuses hell
+Space is the action button (A)
+Esc is the cancel button (B)
+Tab is pause
+Mouse and arrow keys move the camera
+
+Movement
+
+
+The Divine Camaraderie is a self-cooperative action/puzzle game. Hop around heaven and hell as both an angel and a demon, and conjure up adverse weather to herd Dante forward through the woods so he can begin his famous tour of the afterlife. But watch out! The ground is crumbling behind him, and the fire and rain you create could very well send him to the afterlife the hard way!
+
+​This game was created for the 2022 Epic MegaJam (theme: "As above, so below"). I've been learning to use Unreal Engine for a while now, but this is the first complete game I've made with it. As such, the was a lot of learning involved, especially at the end of the development process. Like, who knew that packaged games' level streaming can behave differently from in-editor playback due to the assets not already being in RAM? I sure didn't, but I do now!
+
+Aside from the font -- Aboreto, a wonderful OFL typeface by Dominik Jáger (https://fonts.google.com/specimen/Aboreto/about) -- all of the art and sound assets are my own and were created during the one-week game jam.
+
+The game is intended to be played with a gamepad, but it's also possible to use keyboard/mouse. Just be aware that KBM support was an eleventh-hour addition, and KBM menu navigation is janky because it.
+
+
+
+
+Team name:
+
+Name and email:
+Petra Crockett
+petra.m.crockett+epic@gmail.com
+
+Game name:
+The Divine Camaraderie
+
+Submission name:
+The Divine Camaraderie (Windows).zip
+
+Pre-jam content:
+The font, Aboreto, is a pre-existing OFL-licensed resource by Dominik Jáger (https://fonts.google.com/specimen/Aboreto/about). All other content was created by me during the jam.
+
+Gameplay footage link:
+
+
+
+
+The goal is to spur Dante forward by placing fire near him while controlling the spread of that fire with rain. You control two characters -- an angel and a demon -- who exist on different plane's that mirror Dante's, and you must synergize your characters' actions to help Dante without accidentally killing him.
+
+Gamepad is recommended:
+
+Right trigger: Focus on heaven
+Left trigger: Focus on hell
+Right trigger + left stick: Move angel
+Left trigger + left stick: Move demon
+Right trigger + A: Create rain
+Left trigger + A: Create fire
+Right stick: Move camera
+Start: Pause
+A: Menu selection
+B: Cancel
+
+KBM Mappings:
+
+Left shift: Focus on heaven
+Left ctrl: Focus on hell
+Left shift + WASD: Move angel
+Left ctrl + WASD: Move demon
+Left shift + Space: Create rain
+Left ctrl + Space: Create fire
+Mouse/arrow keys: Move camera
+Tab: Pause
+Enter/space: Menu selection
+Arrow keys: Menu navigation
+Q: Cancel
+
+---------------------------
+Team Name
+Canto One
+
+How many people are on your team?
+1
+
+List each team members's name & contact email addressPrivate
+We are looking for the best email address in which to contact you. This does not need to be your Epic Games account email. (This information will be kept private.)
+petra.m.crockett@gmail.com
+
+Gameplay Instructions
+Please include controls, keyboard & mouse or controller, any multiplayer setup, etc.
+The goal is to spur Dante forward by placing fire near him while controlling the spread of that fire with rain. You control two characters -- an angel and a demon -- who exist on different planes that mirror Dante's, and you must synergize your characters' actions to help Dante without accidentally killing him.
+
+Gamepad is recommended (prompts use Xbox naming):
+
+Right trigger: Focus on heaven
+Left trigger: Focus on hell
+Right trigger + left stick: Move angel
+Left trigger + left stick: Move demon
+Right trigger + A: Create rain
+Left trigger + A: Create fire
+Right stick: Move camera
+Start: Pause
+A: Menu selection
+Left stick/D-pad: Menu navigation
+B: Cancel
+
+KBM Mappings:
+
+Left shift: Focus on heaven
+Left ctrl: Focus on hell
+Left shift + WASD: Move angel
+Left ctrl + WASD: Move demon
+Left shift + Space: Create rain
+Left ctrl + Space: Create fire
+Mouse/arrow keys: Move camera
+Tab: Pause
+Enter/space: Menu selection
+Arrow keys: Menu navigation
+Q: Cancel
+
+What platform is your game built for?
+Windows
+
+List any content that was created before the jam.
+The font, Aboreto, is a pre-existing OFL-licensed resource by Dominik Jáger (https://fonts.google.com/specimen/Aboreto/about). Instrument sample libraries were used to create the music (but composition and production are entirely my own). All other content was created by me during the jam.
+
+What country are each of you from?
+United States
+
+Link to Gameplay Footage
+https://www.youtube.com/watch?v=YSMLyO2kKZE
+
+Would you be open to Epic contacting you about employment opportunities?
+Yes
+
+How much Unreal Engine experience do you have?
+I've been using UE since February 2022. I am working on a long-term project with it, but The Divine Camaraderie is the first complete UE game I've made.
+
+Are you entering as a student team?Private
+To be considered as a student team, each member must be currently enrolled in the form of higher education. If this is the case, please let us know where each of you is studying. If not, please write N/A
+N/A
+
+Which Modifier Categories would you like your game to be considered for?Private
+Army Of One - For the best game created by a solo developer. Light It Up - For the game with the most creatively lit environment that includes real-time ray tracing. Audio Experience - For the game with the best audio (music and sound). Make Us Go WOW! (Stylized) - For the game with the most stunning stylized graphics Make Us Go WOW! (Photoreal) - For the game with the most stunning photoreal graphics Is This Real Life? (XR) - For the best XR game. Procedural Magicians (Procedural Generation) - For the best game that used Houdini from SideFX Tiny But Mighty (under 150MB) - For the best game that is less than 150MB (total size of the packaged playable game) Use it or Lose It - For the best game created using only a single, 4 channel texture map. Fully Kitted - For the game with the best use of Achievements using AWS GameKit Multiplayer Elevation - For the best multiplayer game that uses AWS GameLift The KitBasher - For the game with the best use of a KB3D Neo City pack Double Trouble - For the best game that makes use of paired animations
+Army of One
+Audio Experience
+Make Us Go WOW! Stylized
+
+Which Engine version did you use to create your entry?
+5.0.2
+
+If special category "Audio Experience" - How did you design your sound?
+The sounds are foley with a bit of synthesizer, all recorded specifically for the game. I love Banjo-Kazooie-style gibberish text noises, so that was a major inspiration for the character sounds.
+
+I've never done any kind of layered/interactive music before, and I knew immediately upon thinking of the game concept that I wanted the music to change to fit the plane of existence you were viewing. The theorbo/recorder melody is a nod to Dante's era, but the game is far too silly for anything more authentic than that.
+
+If special category "Audio Experience" Did you use any pre-made audio assets?
+I used instrument sample libraries in the creation of the music, but the composition and production are entirely my own.
+
+If special category "Audio Experience" What was your goal with sound/music?
+I wanted it to be completely my own audio. I find with game jam and small indie projects, I often prefer the uniqueness and character of custom assets even if they may not be as polished as 3rd-pary assets, and I think that approach to audio fits well with the rest of my game, which is also completely my own work.
+
+Did you use Assembla?
+No
+
+I have read and agreed to the 2022 Epic MegaJam contest rules.
+Yes
